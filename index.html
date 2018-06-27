@@ -8,9 +8,12 @@
  
     <script>
         $(document).ready(function(){
-          $("button").click(function(){
+          $("#button1").click(function(){
             alert('hihihi');
             $("img").hide();
+          });
+          $("#button2").click(function(){
+            $("img").show();
           });
         });
     </script>
@@ -29,7 +32,7 @@
     <iframe width="560" height="315" src="https://www.youtube.com/embed/MUK6mwGLGBY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     <p> There is a prime example of LeBron Passing up moments where he can close the game. Kobe and MJ are known for closing out cames. Ask the Utah Jazz (MJ's Last Shot)</P>
      <img src='https://i.ytimg.com/vi/n1BVvLRXmgw/maxresdefault.jpg'>
-      <button type='button'> Mamba 4 Life </button> 
-      <button type='button'> Click ME</button>
+      <button id="button1" type='button'> Mamba 4 Life </button> 
+      <button id="button2" type='button'> Click ME</button>
   </body>
 </html>
